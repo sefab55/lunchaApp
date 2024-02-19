@@ -1,0 +1,100 @@
+/* Body-stijlen */
+body {
+    background: white;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rounded-button {
+    border: none;
+    color: white;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+    background-color: #24c678;
+    height: 35px;
+    text-align: center;
+}
+
+
+/* Container-stijlen */
+.container {
+    background-image: url('../image/bg\ 1.svg');
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 700px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.filter-button .filter-btn {
+    /* Voeg hier je gewenste stijl toe voor de knoppen binnen .filter-button */
+    /* Bijvoorbeeld: */
+    background-color: #FF8A44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-button .filter-btn:hover {
+    background-color: #ff8a44;
+}
+
+ 
+
+.winkelmand-details {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.cart-item p {
+    width: 33%;
+}
+
+.cart-item .left {
+    text-align: left;
+}
+
+.cart-item .center {
+    text-align: center;
+}
+
+.cart-item .right {
+    text-align: right;
+}
+
+.total {
+    margin-top: 10px;
+}
+
+
+
+input[type="number"] {
+    width: 40px; /* Pas deze waarde naar wens aan */
+}
+
+
+

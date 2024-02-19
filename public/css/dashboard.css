@@ -1,0 +1,126 @@
+/* Body-stijlen */
+body {
+    background-color: white;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.broodje-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.maaltijd {
+    margin-bottom: 10px; /* Voeg een onderlinge afstand van 10px tussen de broodjes toe */
+    background-color: white;
+}
+/* Voeg deze regel toe aan je CSS-bestand om de achtergrond van de rijen wit te maken */
+table tbody tr {
+    background-color: white;
+}
+
+
+/* Container-stijlen */
+.container {
+    background-image: url('../image/bg\ 2.svg');
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 675px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+.broodje {
+    width: 280px; 
+    height: 80px; 
+    background-color: white;
+    position: center;
+    border-radius: 20px;
+}
+ 
+
+
+/* Filterbalk-stijlen */
+.filter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #24c678;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.img-container { 
+    text-align: left;
+}
+
+.text-container {
+    flex: 1; /* Neem zoveel mogelijk beschikbare ruimte in beslag */
+    text-align: center; /* Plaats de tekst in het midden van de beschikbare ruimte */
+}
+
+.prijs {
+    text-align: right;
+}
+
+/* Filterknop-containerstijlen */
+.filter-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+/* Filterknop-stijlen */
+.filter-button .filter-btn {
+    border: none;
+    color: black;
+    border-radius: 20px; /* Maak de hoeken ronder door de waarde te vergroten */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 8px;
+    margin-right: 5px;
+    background-color: #24c678;
+    height: 35px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prijs{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.filter-button .filter-btn:hover {
+}
+
+
+/* Stijlen voor afbeeldingen */
+.broodjeimg {
+    position: center;
+    height: 50px;
+    border-radius: 20px;
+    width: 70px;
+}
+.fotoandh {
+    text-align: center;
+}
