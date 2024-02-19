@@ -18,10 +18,11 @@
 
 
     <div class="container">
-    <img src="{{ asset('image/broodjes1.png') }}" alt="Broodje Gezond Afbeelding" width="150" height="75" class="broodimg" />
-        <h2>Bestel je broodjes <br> maar dan...</h2>
+    <img src="{{ asset('image/broodjes1.png') }}" alt="Broodje Gezond Afbeelding" width="150" height="65" class="broodimg" />
+    <h2>Bestel je broodje <br> <span style="font-size: 70%;">maar dan...</span></h2>
+
         
-        <h1 class="rompies-font">fast</h1>
+        <h1 class="rompies-font">Fast</h1>
 
 
         <div class="buttons">
